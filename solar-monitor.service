@@ -1,0 +1,15 @@
+[Unit]
+Description=Solar Monitor
+After=network.target
+ 
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/pi/solar-monitor
+ExecStart=/home/pi/solar-monitor/solar-monitor.py
+RestartSec=13
+Restart=always
+ 
+[Install]
+WantedBy=multi-user.target
+
