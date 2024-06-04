@@ -1,5 +1,7 @@
 # solar-monitor
 
+This is a direct copy of https://github.com/Olen/solar-monitor as at 04Jun2024 to try to assist local deployment
+
 This utility monitors defined BLE-devices, and sends parsed data to a remote server using either MQTT or json/HTTP
 
 Currently supported
